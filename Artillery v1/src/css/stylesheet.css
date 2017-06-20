@@ -1,0 +1,34 @@
+.root {
+    -fx-base: rgb(50, 50, 50);
+    -fx-background: rgb(50, 50, 50);
+    -fx-control-inner-background: rgb(50, 50, 50);
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(75, 75, 75);
+}
+
+.button:hover {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-color: -fx-hover-base;
+}
+
+.table-view {
+    -fx-table-cell-border-color: rgb(55,55,55);
+    -fx-table-header-border-color:rgb(60,60,60);
+}
+
+.split-pane:horizontal > * > .split-pane-divider {
+    -fx-border-color: transparent -fx-base transparent -fx-base;
+    -fx-background-color: transparent, rgb(60,60,60);
+    -fx-background-insets: 0, 0 1 0 1;
+}
+
+.my-gridpane {
+    -fx-background-color: linear-gradient(to bottom, rgb(60,60,60), rgb(40,40,40));
+}
+
+.separator-label {
+    -fx-text-fill: orange;
+}
